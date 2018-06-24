@@ -29,10 +29,10 @@ public class EventsFragment extends Fragment {
 
 
         final ArrayList<Description> descriptions = new ArrayList<Description>();
-        descriptions.add(new Description("red", "weṭeṭṭi", "street", R.drawable.event_1));
-        descriptions.add(new Description("red", "weṭeṭṭi", "street", R.drawable.event_1));
-        descriptions.add(new Description("red", "weṭeṭṭi", "street", R.drawable.event_1));
-        descriptions.add(new Description("red", "weṭeṭṭi", "street", R.drawable.event_1));
+        descriptions.add(new Description("name", "description", "street", R.drawable.event_1));
+        descriptions.add(new Description("name", "description", "street", R.drawable.event_1));
+        descriptions.add(new Description("name", "description", "street", R.drawable.event_1));
+        descriptions.add(new Description("name", "description", "street", R.drawable.event_1));
 
 
 

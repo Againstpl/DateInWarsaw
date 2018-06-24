@@ -30,9 +30,9 @@ public class CinemasFragment extends Fragment {
 
         final ArrayList<Description> descriptions = new ArrayList<Description>();
         descriptions.add(new Description("Kino Wisła", "www.novekino.pl", "Pl. Wilsona 2, Warszawa", R.drawable.cinema_1));
-        descriptions.add(new Description("red", "weṭeṭṭi", "street", R.drawable.cinema_1));
-        descriptions.add(new Description("red", "weṭeṭṭi", "street", R.drawable.cinema_1));
-        descriptions.add(new Description("red", "weṭeṭṭi", "street", R.drawable.cinema_1));
+        descriptions.add(new Description("name", "description", "street", R.drawable.cinema_1));
+        descriptions.add(new Description("name", "description", "street", R.drawable.cinema_1));
+        descriptions.add(new Description("name", "description", "street", R.drawable.cinema_1));
 
 
         DescriptionAdapter adapter = new DescriptionAdapter(getActivity(), descriptions, R.color.category_cinemas);
