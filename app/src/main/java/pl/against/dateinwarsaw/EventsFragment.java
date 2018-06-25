@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -29,16 +28,16 @@ public class EventsFragment extends Fragment {
 
 
         final ArrayList<Description> descriptions = new ArrayList<Description>();
-        descriptions.add(new Description("name", "description", "street", R.drawable.event_1));
-        descriptions.add(new Description("name", "description", "street", R.drawable.event_1));
-        descriptions.add(new Description("name", "description", "street", R.drawable.event_1));
-        descriptions.add(new Description("name", "description", "street", R.drawable.event_1));
-
+        descriptions.add(new Description("Multimedia Fountain Park", "http://www.parkfontann.pl/", "https://goo.gl/maps/UnYcR7kyd5U2", R.drawable.event_1));
+        descriptions.add(new Description("Ship to Serock", "http://www.ztm.waw.pl/?c=148&l=1", "https://goo.gl/maps/8abivy27Q9y", R.drawable.event_2));
+        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
+        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
+        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
 
 
         DescriptionAdapter adapter = new DescriptionAdapter(getActivity(), descriptions, R.color.category_events);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 

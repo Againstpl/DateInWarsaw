@@ -31,23 +31,23 @@ public class DescriptionAdapter extends ArrayAdapter<Description> {
                     R.layout.list_item, parent, false);
         }
 
-        Description currentWord = getItem(position);
+        Description currentDescription = getItem(position);
 
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_text_view);
+        TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
 
-        nameTextView.setText(currentWord.getName());
+        nameTextView.setText(currentDescription.getName());
 
-        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description_text_view);
+        TextView descriptionTextView = listItemView.findViewById(R.id.description_text_view);
 
-        descriptionTextView.setText(currentWord.getDescription());
+        descriptionTextView.setText(currentDescription.getDescription());
 
-        TextView localizationTextView = (TextView) listItemView.findViewById(R.id.localization_text_view);
+        TextView localizationTextView = listItemView.findViewById(R.id.localization_text_view);
 
-        localizationTextView.setText(currentWord.getLocalization());
+        localizationTextView.setText(currentDescription.getLocalization());
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageView = listItemView.findViewById(R.id.image);
 
-        imageView.setImageResource(currentWord.getImageResourceId());
+        imageView.setImageResource(currentDescription.getImageResourceId());
 
 
         // Set the theme color for the list item

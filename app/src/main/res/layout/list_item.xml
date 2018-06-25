@@ -46,7 +46,7 @@
             android:layout_weight="1"
             android:gravity="start"
             android:layout_below="@id/name_text_view"
-            android:textAppearance="?android:textAppearanceMedium"
+            android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@android:color/white"
             android:autoLink="web"
             tools:text="lutti" />
@@ -59,9 +59,9 @@
             android:layout_below="@id/description_text_view"
             android:layout_weight="1"
             android:gravity="bottom"
-            android:textAppearance="?android:textAppearanceMedium"
+            android:autoLink="web"
             android:textColor="@android:color/white"
-            android:autoLink="map"
+            android:textAppearance="?android:textAppearanceSmall"
             tools:text="one" />
 
 
