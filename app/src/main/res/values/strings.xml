@@ -13,4 +13,69 @@
         <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
         <string name="category_events">Events</string>
 
+    <string name="name_cinema_1">Kino Wisła</string>
+    <string name="name_cinema_2">Iluzjon</string>
+    <string name="name_cinema_3">Kino Lab</string>
+    <string name="name_cinema_4">Kino Muranów</string>
+    <string name="name_cinema_5">name</string>
+    <string name="description_cinema_1">www.novekino.pl</string>
+    <string name="description_cinema_2">www.iluzjon.fn.org.pl</string>
+    <string name="description_cinema_3">www.u-jazdowski.pl/kino</string>
+    <string name="description_cinema_4">www.kinomuranow.pl</string>
+    <string name="description_cinema_5">des</string>
+    <string name="localization_cinema_1">https://goo.gl/maps/8AiHwmMSq5U2</string>
+    <string name="localization_cinema_2">https://goo.gl/maps/a1GurSbQLZC2</string>
+    <string name="localization_cinema_3">https://goo.gl/maps/wMQA362Tcb12</string>
+    <string name="localization_cinema_4">https://goo.gl/maps/6eZAgoWAEgk</string>
+    <string name="localization_cinema_5">map</string>
+
+    <string name="name_park_1">Botanic Garden PAN</string>
+    <string name="name_park_2">Morskie Oko Park</string>
+    <string name="name_park_3">Pole Mokotowskie</string>
+    <string name="name_park_4">Kępa Potocka</string>
+    <string name="name_park_5">park</string>
+    <string name="description_park_1">www.ogrod-powsin.pl</string>
+    <string name="description_park_2">www.zielona.um.warszawa.pl</string>
+    <string name="description_park_3">www.zielona.um.warszawa.pl</string>
+    <string name="description_park_4">www.zielona.um.warszawa.pl</string>
+    <string name="description_park_5">www</string>
+    <string name="localization_park_1">https://goo.gl/maps/kA9Fks2cgUS2</string>
+    <string name="localization_park_2">https://goo.gl/maps/rh9Qjrbcoqx</string>
+    <string name="localization_park_3">https://goo.gl/maps/uRiyoHf3hVx</string>
+    <string name="localization_park_4">https://goo.gl/maps/C4tns79sAoz</string>
+    <string name="localization_park_5">map</string>
+
+    <string name="name_caffe_1">Oko w Oko</string>
+    <string name="name_caffe_2">Same fusy</string>
+    <string name="name_caffe_3">Etno Cafe</string>
+    <string name="name_caffe_4">Na huśtawce</string>
+    <string name="name_caffe_5">name</string>
+    <string name="description_caffe_1">www.facebook.com/okowokomoko</string>
+    <string name="description_caffe_2">samefusy.pl</string>
+    <string name="description_caffe_3">etnocafe.pl</string>
+    <string name="description_caffe_4">nahustawce.pl</string>
+    <string name="description_caffe_5">des</string>
+    <string name="localization_caffe_1">https://goo.gl/maps/xAKvTjSwTBy</string>
+    <string name="localization_caffe_2">https://goo.gl/maps/F6qHHBqaiwp</string>
+    <string name="localization_caffe_3">https://goo.gl/maps/nYe81HMUs9R2</string>
+    <string name="localization_caffe_4">https://goo.gl/maps/AAcJEZFeZDC2</string>
+    <string name="localization_caffe_5">map</string>
+
+    <string name="name_event_1">Multimedia Fountain Park</string>
+    <string name="name_event_2">Ship to Serock</string>
+    <string name="name_event_3">name</string>
+    <string name="name_event_4">name</string>
+    <string name="name_event_5">name</string>
+    <string name="description_event_1">www.parkfontann.pl</string>
+    <string name="description_event_2">www.ztm.waw.pl</string>
+    <string name="description_event_3">des</string>
+    <string name="description_event_4">des</string>
+    <string name="description_event_5">des</string>
+    <string name="localization_event_1">https://goo.gl/maps/UnYcR7kyd5U2</string>
+    <string name="localization_event_2">https://goo.gl/maps/8abivy27Q9y</string>
+    <string name="localization_event_3">map</string>
+    <string name="localization_event_4">map</string>
+    <string name="localization_event_5">map</string>
+
+
 </resources>

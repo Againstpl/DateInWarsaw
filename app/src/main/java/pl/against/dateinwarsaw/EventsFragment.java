@@ -28,11 +28,11 @@ public class EventsFragment extends Fragment {
 
 
         final ArrayList<Description> descriptions = new ArrayList<Description>();
-        descriptions.add(new Description("Multimedia Fountain Park", "http://www.parkfontann.pl/", "https://goo.gl/maps/UnYcR7kyd5U2", R.drawable.event_1));
-        descriptions.add(new Description("Ship to Serock", "http://www.ztm.waw.pl/?c=148&l=1", "https://goo.gl/maps/8abivy27Q9y", R.drawable.event_2));
-        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
-        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
-        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
+        descriptions.add(new Description(R.string.name_event_1, R.string.description_event_1, R.string.localization_event_1, R.drawable.event_1));
+        descriptions.add(new Description(R.string.name_event_2, R.string.description_event_2, R.string.localization_event_2, R.drawable.event_2));
+        descriptions.add(new Description(R.string.name_event_3, R.string.description_event_3, R.string.localization_event_3, R.drawable.blank));
+        descriptions.add(new Description(R.string.name_event_4, R.string.description_event_4, R.string.localization_event_4, R.drawable.blank));
+        descriptions.add(new Description(R.string.name_event_5, R.string.description_event_5, R.string.localization_event_5, R.drawable.blank));
 
 
         DescriptionAdapter adapter = new DescriptionAdapter(getActivity(), descriptions, R.color.category_events);

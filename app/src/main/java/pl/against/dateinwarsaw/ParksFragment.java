@@ -28,11 +28,11 @@ public class ParksFragment extends Fragment {
 
 
         final ArrayList<Description> descriptions = new ArrayList<Description>();
-        descriptions.add(new Description("Botanic Garden PAN", "ogrod-powsin.pl", "https://goo.gl/maps/kA9Fks2cgUS2", R.drawable.park_1));
-        descriptions.add(new Description("Morskie Oko Park", "zielona.um.warszawa.pl", "https://goo.gl/maps/rh9Qjrbcoqx", R.drawable.park_2));
-        descriptions.add(new Description("Pole Mokotowskie", "zielona.um.warszawa.pl", "https://goo.gl/maps/uRiyoHf3hVx", R.drawable.park_3));
-        descriptions.add(new Description("Kępa Potocka", "description", "https://goo.gl/maps/C4tns79sAoz", R.drawable.park_4));
-        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
+        descriptions.add(new Description(R.string.name_park_1, R.string.description_park_1, R.string.localization_park_1, R.drawable.park_1));
+        descriptions.add(new Description(R.string.name_park_2, R.string.description_park_2, R.string.localization_park_2, R.drawable.park_2));
+        descriptions.add(new Description(R.string.name_park_3, R.string.description_park_3, R.string.localization_park_3, R.drawable.park_3));
+        descriptions.add(new Description(R.string.name_park_4, R.string.description_park_4, R.string.localization_park_4, R.drawable.park_4));
+        descriptions.add(new Description(R.string.name_park_5, R.string.description_park_5, R.string.localization_park_5, R.drawable.blank));
 
         DescriptionAdapter adapter = new DescriptionAdapter(getActivity(), descriptions, R.color.category_parks);
 

@@ -28,11 +28,11 @@ public class CinemasFragment extends Fragment {
 
 
         final ArrayList<Description> descriptions = new ArrayList<Description>();
-        descriptions.add(new Description("Kino Wisła", "www.novekino.pl", "https://goo.gl/maps/8AiHwmMSq5U2", R.drawable.cinema_1));
-        descriptions.add(new Description("Iluzjon", "http://www.iluzjon.fn.org.pl/", "https://goo.gl/maps/a1GurSbQLZC2", R.drawable.cinema_2));
-        descriptions.add(new Description("Kino Lab", "u-jazdowski.pl/kino", "https://goo.gl/maps/wMQA362Tcb12", R.drawable.cinema_3));
-        descriptions.add(new Description("Kino Muranów", "kinomuranow.pl", "https://goo.gl/maps/6eZAgoWAEgk", R.drawable.cinema_4));
-        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
+        descriptions.add(new Description(R.string.name_cinema_1, R.string.description_cinema_1, R.string.localization_cinema_1, R.drawable.cinema_1));
+        descriptions.add(new Description(R.string.name_cinema_2, R.string.description_cinema_2, R.string.localization_cinema_2, R.drawable.cinema_2));
+        descriptions.add(new Description(R.string.name_cinema_3, R.string.description_cinema_3, R.string.localization_cinema_3, R.drawable.cinema_3));
+        descriptions.add(new Description(R.string.name_cinema_4, R.string.description_cinema_4, R.string.localization_cinema_4, R.drawable.cinema_4));
+        descriptions.add(new Description(R.string.name_cinema_5, R.string.description_cinema_5, R.string.localization_cinema_5, R.drawable.blank));
 
 
         DescriptionAdapter adapter = new DescriptionAdapter(getActivity(), descriptions, R.color.category_cinemas);

@@ -28,12 +28,11 @@ public class CaffesFragment extends Fragment {
 
 
         final ArrayList<Description> descriptions = new ArrayList<Description>();
-        descriptions.add(new Description("Oko w Oko", "www.facebook.com/okowokomoko/", "https://goo.gl/maps/xAKvTjSwTBy", R.drawable.caffe_1));
-        descriptions.add(new Description("Same fusy", "samefusy.pl", "https://goo.gl/maps/F6qHHBqaiwp", R.drawable.caffe_2));
-        descriptions.add(new Description("Etno Cafe", "etnocafe.pl", "https://goo.gl/maps/nYe81HMUs9R2", R.drawable.caffe_3));
-        descriptions.add(new Description("Na huśtawce", "nahustawce.pl", "https://goo.gl/maps/AAcJEZFeZDC2", R.drawable.caffe_4));
-        descriptions.add(new Description("name", "description", "street", R.drawable.blank));
-
+        descriptions.add(new Description(R.string.name_caffe_1, R.string.description_caffe_1, R.string.localization_caffe_1, R.drawable.caffe_1));
+        descriptions.add(new Description(R.string.name_caffe_2, R.string.description_caffe_2, R.string.localization_caffe_2, R.drawable.caffe_2));
+        descriptions.add(new Description(R.string.name_caffe_3, R.string.description_caffe_3, R.string.localization_caffe_3, R.drawable.caffe_3));
+        descriptions.add(new Description(R.string.name_caffe_4, R.string.description_caffe_4, R.string.localization_caffe_4, R.drawable.caffe_4));
+        descriptions.add(new Description(R.string.name_caffe_5, R.string.description_caffe_5, R.string.localization_caffe_5, R.drawable.blank));
 
 
         DescriptionAdapter adapter = new DescriptionAdapter(getActivity(), descriptions, R.color.category_cafes);

@@ -9,10 +9,10 @@ public class Description {
      */
     private static final int NO_IMAGE_PROVIDED = -1;
     // String value
-    private String mName;
+    private int mName;
     // Text color of the text
-    private String mDescription;
-    private String mLocalization;
+    private int mDescription;
+    private int mLocalization;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
 
@@ -22,7 +22,7 @@ public class Description {
     /**
      * Constructs a new TextView with initial values for text and text color.
      */
-    public Description(String name, String description, String localization) {
+    public Description(int name, int description, int localization) {
         mName = name;
         mDescription = description;
         mLocalization = localization;
@@ -33,7 +33,7 @@ public class Description {
     /**
      * Constructs a new TextView with initial values for text and text color.
      */
-    public Description(String name, String description, String localization, int imageResourceId) {
+    public Description(int name, int description, int localization, int imageResourceId) {
         mName = name;
         mDescription = description;
         mLocalization = localization;
@@ -46,7 +46,7 @@ public class Description {
      *
      * @return current text in the TextView.
      */
-    public String getName() {
+    public int getName() {
         return mName;
     }
 
@@ -55,7 +55,7 @@ public class Description {
      *
      * @return current text color.
      */
-    public String getDescription() {
+    public int getDescription() {
         return mDescription;
     }
 
@@ -64,7 +64,7 @@ public class Description {
      *
      * @return current text color.
      */
-    public String getLocalization() {
+    public int getLocalization() {
         return mLocalization;
     }
 
@@ -76,14 +76,6 @@ public class Description {
 
     public int getImageResourceId() {
         return mImageResourceId;
-    }
-
-    /**
-     * +     * Returns whether or not there is an image for this word.
-     * +
-     */
-    public boolean hasImage() {
-        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
 
