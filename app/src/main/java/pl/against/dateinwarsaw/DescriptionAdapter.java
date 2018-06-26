@@ -16,8 +16,8 @@ public class DescriptionAdapter extends ArrayAdapter<Description> {
     private int mColorResourceId;
 
 
-    public DescriptionAdapter(Activity context, ArrayList<Description> words, int colorResourceId) {
-        super(context, 0, words);
+    public DescriptionAdapter(Activity context, ArrayList<Description> descriptions, int colorResourceId) {
+        super(context, 0, descriptions);
         mColorResourceId = colorResourceId;
     }
 
@@ -49,10 +49,8 @@ public class DescriptionAdapter extends ArrayAdapter<Description> {
 
         imageView.setImageResource(currentDescription.getImageResourceId());
 
-
-        // Set the theme color for the list item
         View textContainer = listItemView.findViewById(R.id.text_container);
-        // Find the color that the resource ID maps to
+
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
 
         textContainer.setBackgroundColor(color);

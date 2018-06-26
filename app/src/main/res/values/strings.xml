@@ -1,16 +1,12 @@
 <resources>
     <string name="app_name">Date In Warsaw</string>
 
-        <!-- Category name for phrases [CHAR LIMIT=20] -->
         <string name="category_parks">Parks</string>
 
-        <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
         <string name="category_cinemas">Cinemas</string>
 
-        <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
         <string name="category_caffes">Caffes</string>
 
-        <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
         <string name="category_events">Events</string>
 
     <string name="name_cinema_1">Kino Wisła</string>
